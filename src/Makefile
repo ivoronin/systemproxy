@@ -44,7 +44,7 @@ components/SystemProxyInterface.h: components/SystemProxyInterface.idl
 
 systemproxy-$(VERSION).xpi: components/libsystemproxy.dylib components/libsystemproxy.xpt
 	zip -r $@ install.rdf chrome.manifest defaults/ chrome/ \
-		components/libsystemproxy.xpt components/libsystemproxy.dylib
+		components/libsystemproxy.xpt components/libsystemproxy.dylib -x "*CVS*"
 
 clean:
 	rm -f components/libsystemproxy.dylib
