@@ -1,0 +1,9 @@
+/*
+ * $Id$
+ */
+#include "nsISupports.idl"
+[scriptable, uuid(0fb783da-3167-11dc-8314-0800200c9a66)]
+
+interface SystemProxyInterface: nsISupports
+{
+};

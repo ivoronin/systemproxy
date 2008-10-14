@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- $Id$ -->
+<!DOCTYPE prefwindow SYSTEM "chrome://systemproxy/locale/connection.dtd">
+<overlay xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="connectionPreferencesOverlay">
+  <prefwindow id="ConnectionsDialog">
+    <prefpane id="ConnectionsDialogPane">
+      <script type="application/x-javascript" src="chrome://systemproxy/content/connection.js"/>
+      <preferences>
+        <preference id="extensions.systemproxy.enabled" name="extensions.systemproxy.enabled" type="bool" onchange="systemProxy.updatePrefs()"/>
+        <preference id="extensions.systemproxy.updated" name="extensions.systemproxy.updated" type="int" onchange="systemProxy.disablePrefs();"/>
+      </preferences>
+      <groupbox>
+        <checkbox label="&systemproxy.label;" preference="extensions.systemproxy.enabled" onsyncfrompreference="systemProxy.disablePrefs();"/>
+      </groupbox>
+    </prefpane>
+  </prefwindow>
+</overlay>
