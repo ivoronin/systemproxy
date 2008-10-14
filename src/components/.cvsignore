@@ -1,0 +1,5 @@
+SystemProxyInterface.h
+libsystemproxy.dylib
+libsystemproxy.i386.dylib
+libsystemproxy.ppc.dylib
+libsystemproxy.xpt
