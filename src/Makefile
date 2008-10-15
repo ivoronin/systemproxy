@@ -1,7 +1,7 @@
 #
 # $Id$
 #
-VERSION=1.0
+VERSION=1.1
 
 # ftp://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.0.3/sdk/xulrunner-1.9.0.3.en-US.mac-i386.sdk.tar.bz2
 XULRUNNER_SDK_I386=/Users/ivoronin/xulrunner-sdk-i386/
@@ -46,6 +46,8 @@ systemproxy-$(VERSION).xpi: components/libsystemproxy.dylib components/libsystem
 	zip -r $@ install.rdf chrome.manifest defaults/ chrome/ \
 		components/libsystemproxy.xpt components/libsystemproxy.dylib -x "*CVS*"
 
+check:
+	xmllint --noout install.rdf
 clean:
 	rm -f components/libsystemproxy.dylib
 	rm -f components/libsystemproxy.ppc.dylib
