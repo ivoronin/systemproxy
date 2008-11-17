@@ -1,7 +1,7 @@
 #
 # $Id$
 #
-VERSION=1.1
+VERSION=1.1.1
 
 # ftp://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.0.3/sdk/xulrunner-1.9.0.3.en-US.mac-i386.sdk.tar.bz2
 XULRUNNER_SDK_I386=/Users/ivoronin/xulrunner-sdk-i386/
