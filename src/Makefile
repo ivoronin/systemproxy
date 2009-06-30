@@ -7,7 +7,7 @@ VERSION=1.1.1
 XULRUNNER_SDK_I386=/Users/ivoronin/xulrunner-sdk-i386/
 # ftp://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.0.3/sdk/xulrunner-1.9.0.3.en-US.mac-powerpc.sdk.tar.bz2
 XULRUNNER_SDK_PPC=/Users/ivoronin/xulrunner-sdk-ppc/
-XULRUNNER_SDK=$(XULRUNNER_SDK_I386)
+XULRUNNER_SDK=$(XULRUNNER_SDK_PPC)
 XPIDL=$(XULRUNNER_SDK)/bin/xpidl
 
 CXXFLAGS=-Wall -O2 -I$(XULRUNNER_SDK)/sdk/include -Wno-non-virtual-dtor -DFORCE_PR_LOG
