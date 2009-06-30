@@ -11,3 +11,4 @@ overlay chrome://browser/content/preferences/connection.xul chrome://systemproxy
 locale systemproxy en-US chrome/locale/en-US/
 locale systemproxy ru-RU chrome/locale/ru-RU/
 locale systemproxy fr-FR chrome/locale/fr-FR/
+locale systemproxy de-DE chrome/locale/de-DE/

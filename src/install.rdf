@@ -33,6 +33,7 @@
     <em:description>Enables application to read proxy settings from the Mac OS X</em:description>
     <em:creator>Ilya Voronin</em:creator>
     <em:translator>Yann Ricquebourg</em:translator>
+    <em:translator>Thomas Schwichtenberg</em:translator>
     <em:homepageURL>http://systemproxy.mozdev.org</em:homepageURL>
     <em:updateURL>https://www.mozdev.org/p/updates/systemproxy/systemproxy@curthread.org/update.rdf</em:updateURL>
     <em:localized>
@@ -48,6 +49,13 @@
         <em:name>SystemProxy</em:name>
         <em:locale>fr-FR</em:locale>
         <em:description>Permet de recopier les réglages proxy de Mac OS X</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:name>SystemProxy</em:name>
+        <em:locale>de-DE</em:locale>
+        <em:description>Ermöglicht die Proxy-Einstellungen von Mac OS X zu übernehmen</em:description>
       </Description>
     </em:localized>
     <em:targetPlatform>Darwin</em:targetPlatform>
